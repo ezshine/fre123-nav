@@ -1,13 +1,13 @@
 {
 	"base": {
-		"app_name": "FRE123",
-		"web_host": "https://www.fre123.com",
-		"logo": "https://img.fre123.com/i/2023/11/25/65619e8022505.png"
+		"app_name": "大帅老猿收藏夹",
+		"web_host": "https://favnav.dashu.ai",
+		"logo": "https://lemonsqueezy.imgix.net/avatars/stores/63622/PQyjQjqlPbuyZ6rBaV5FPbYvHqjqGoR0fMwMbggG.png?fit=clip&h=100&ixlib=php-3.3.1&w=100&s=26f19f4e2ddab1886cfd0ee6fc26e6b8"
 	},
 	"seo": {
-		"title": "FRE123 免费资源共享平台",
-		"description": "FRE123 专注于为您提供各种免费优质资源，包括影视资源、动漫番剧、软件工具等。无论您在寻找哪种资源，我们都将尽力为您提供，为您的学习或工作助力",
-		"keywords": "FRE123, 免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源",
+		"title": "大帅老猿的收藏夹",
+		"description": "本站专注于为您提供各种免费优质资源，包括影视资源、动漫番剧、软件工具等。无论您在寻找哪种资源，我们都将尽力为您提供，为您的学习或工作助力",
+		"keywords": "免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源",
 		"icon": "https://img.fre123.com/i/2023/11/25/65619e791f166.ico"
 	},
 	"header": {
@@ -37,22 +37,6 @@
 		"right": {
 			"is_show": true,
 			"group": {
-				"name": "热点榜单",
-				"url": "https://www.fre123.com/news",
-				"children": [
-					{
-						"name": "新闻热榜",
-						"url": "https://www.fre123.com/news"
-					},
-					{
-						"name": "技术热榜",
-						"url": "https://www.fre123.com/tech"
-					},
-					{
-						"name": "技术周刊",
-						"url": "https://www.fre123.com/weekly"
-					}
-				]
 			}
 		}
 	},
@@ -64,8 +48,8 @@
 				"icon_size": 20,
 				"icon_color": "#00b140",
 				"icon_hover_color": "#008733",
-				"text": "有兴趣加我进群聊聊",
-				"img": "https://img.fre123.com/i/2023/12/03/656c990d9fbb8.jpeg",
+				"text": "大帅老猿公众号",
+				"img": "https://open.weixin.qq.com/qr/code?username=ezfullstack",
 				"url": ""
 			},
 			{
@@ -73,18 +57,18 @@
 				"icon_size": 20,
 				"icon_color": "#0088cc",
 				"icon_hover_color": "#085b85",
-				"text": "关注老胡TG信息流频道",
+				"text": "海外赚钱TG交流群",
 				"img": "",
-				"url": "https://t.me/howie_weekly"
+				"url": "https://t.me/+Hci-eceu7ok3NmNl"
 			},
 			{
-				"icon_class": "fas fa-comment-dots",
+				"icon_class": "fab fa-youtube",
 				"icon_size": 20,
 				"icon_color": "#0088cc",
 				"icon_hover_color": "#085b85",
-				"text": "FRE123 期待您的建议反馈",
+				"text": "大帅老猿的youtube频道",
 				"img": "",
-				"url": "https://txc.qq.com/products/617721"
+				"url": "https://youtube.com/@ezshine"
 			}
 		]
 	},
@@ -92,26 +76,7 @@
 		"right": {
 			"is_show": true,
 			"list": [
-				{
-					"icon_class": "fas fa-comment-dots",
-					"icon_size": 20,
-					"url": "https://github.com/fre123-com"
-				},
-				{
-					"icon_class": "fab fa-telegram-plane",
-					"icon_size": 20,
-					"url": "https://t.me/howie_weekly"
-				},
-				{
-					"icon_class": "fas fa-blog",
-					"icon_size": 20,
-					"url": "https://www.fre123.com/weekly"
-				},
-				{
-					"icon_class": "fas fa-qrcode",
-					"icon_size": 20,
-					"url": "https://cdn.jsdelivr.net/gh/howie6879/weekly/src/statics/wechat.jpeg"
-				}
+				
 			]
 		}
 	}

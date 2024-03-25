@@ -174,7 +174,7 @@ const showToSourceIcon = (type: string, idx: number, t: number) => {
 }
 
 const jumpOut = (url: string) => {
-	window.open(url + '?ref=https://www.fre123.com', '_blank')
+	window.open(url + '?ref=https://dashu.ai', '_blank')
 }
 
 const stop = ($event) => {

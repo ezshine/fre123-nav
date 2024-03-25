@@ -6,10 +6,10 @@
 				<span
 					>Powered by
 					<a
-						href="https://www.fre123.com"
+						href="https://dashu.ai"
 						target="_blank"
 						class="decoration-transparent text-[#a4715c]"
-						>FRE123</a
+						>DASHU.AI</a
 					>
 				</span>
 			</div>
