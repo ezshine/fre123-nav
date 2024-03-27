@@ -5,6 +5,20 @@
 		"style_des": "标准风格",
 		"tab_list": [
 			{
+				"tab_name":"在线工具",
+				"upper_right_corner":{},
+				"details":[
+					{
+						"title":"Tweeteasy",
+						"url": "https://tweeteasy.io/",
+						"icon": "https://tweeteasy.io/logo.png",
+						"description":"一款 AI 生成推文、优化推文，帮助你轻松发推、更快增长的谷歌插件。",
+						"suffix": false,
+						"is_show": true
+					}
+				]
+			},
+			{
 				"tab_name": "软件下载",
 				"upper_right_corner": {},
 				"details": [

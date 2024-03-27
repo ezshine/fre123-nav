@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 				{
 					name: 'keywords',
 					content:
-						'免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源',
+						'大帅老猿, 免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源',
 				},
 				{
 					name: 'description',

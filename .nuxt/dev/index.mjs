@@ -920,7 +920,7 @@ function createServerHead(options = {}) {
 
 const unheadPlugins = [];
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"keywords","content":"免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源"},{"name":"description","content":"本站专注于为您提供各种免费优质资源，包括影视资源、动漫番剧、软件工具等。无论您在寻找哪种资源，我们都将尽力为您提供，为您的学习或工作助力"}],"link":[{"rel":"icon","type":"image/x-icon","href":"https://img.fre123.com/i/2023/11/25/65619e791f166.ico"}],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"keywords","content":"大帅老猿, 免费资源, 优质资源, 资源聚合, 在线资源, 影视资源, 动漫番剧, 软件工具, 网盘资源"},{"name":"description","content":"本站专注于为您提供各种免费优质资源，包括影视资源、动漫番剧、软件工具等。无论您在寻找哪种资源，我们都将尽力为您提供，为您的学习或工作助力"}],"link":[{"rel":"icon","type":"image/x-icon","href":"https://img.fre123.com/i/2023/11/25/65619e791f166.ico"}],"style":[],"script":[],"noscript":[]};
 
 const appRootId = "__nuxt";
 
