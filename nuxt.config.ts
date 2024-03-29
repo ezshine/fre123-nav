@@ -8,7 +8,11 @@ export default defineNuxtConfig({
 		'@vueuse/nuxt',
 		'nuxt-icon',
 		'@pinia-plugin-persistedstate/nuxt',
+		'nuxt-gtag'
 	],
+	gtag: {
+		id: 'G-TVGMM4MSHK'
+	},
 	pinia: {
 		autoImports: ['defineStore', 'storeToRefs'],
 	},

@@ -31,5 +31,7 @@ export { fetchInstance, postApi } from '../utils/http';
 export { UseSampleImage, GetDefaultAIImage, UseDefaultImage, GetProxyImg, getBingWallpaper } from '../utils/img';
 export { usePinia, defineStore, storeToRefs } from '../node_modules/@pinia/nuxt/dist/runtime/composables';
 export { persistedState } from '../node_modules/@pinia-plugin-persistedstate/nuxt/dist/runtime/storages';
+export { useGtag } from '../node_modules/nuxt-gtag/dist/runtime/composables/useGtag';
+export { useTrackEvent } from '../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

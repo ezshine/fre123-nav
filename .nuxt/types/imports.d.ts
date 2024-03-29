@@ -232,6 +232,7 @@ declare global {
   const useFullscreen: typeof import('../../node_modules/@vueuse/core')['useFullscreen']
   const useGamepad: typeof import('../../node_modules/@vueuse/core')['useGamepad']
   const useGeolocation: typeof import('../../node_modules/@vueuse/core')['useGeolocation']
+  const useGtag: typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useGtag')['useGtag']
   const useHead: typeof import('../../node_modules/@unhead/vue')['useHead']
   const useHeadSafe: typeof import('../../node_modules/@unhead/vue')['useHeadSafe']
   const useHydration: typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']
@@ -330,6 +331,7 @@ declare global {
   const useToNumber: typeof import('../../node_modules/@vueuse/core')['useToNumber']
   const useToString: typeof import('../../node_modules/@vueuse/core')['useToString']
   const useToggle: typeof import('../../node_modules/@vueuse/core')['useToggle']
+  const useTrackEvent: typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent')['useTrackEvent']
   const useTransition: typeof import('../../node_modules/@vueuse/core')['useTransition']
   const useTransitionState: typeof import('../../node_modules/vue')['useTransitionState']
   const useUrlSearchParams: typeof import('../../node_modules/@vueuse/core')['useUrlSearchParams']
@@ -610,6 +612,7 @@ declare module 'vue' {
     readonly useFullscreen: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useFullscreen']>
     readonly useGamepad: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useGamepad']>
     readonly useGeolocation: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useGeolocation']>
+    readonly useGtag: UnwrapRef<typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useGtag')['useGtag']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
@@ -708,6 +711,7 @@ declare module 'vue' {
     readonly useToNumber: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToNumber']>
     readonly useToString: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToggle']>
+    readonly useTrackEvent: UnwrapRef<typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent')['useTrackEvent']>
     readonly useTransition: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useTransition']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
     readonly useUrlSearchParams: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useUrlSearchParams']>
@@ -981,6 +985,7 @@ declare module '@vue/runtime-core' {
     readonly useFullscreen: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useFullscreen']>
     readonly useGamepad: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useGamepad']>
     readonly useGeolocation: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useGeolocation']>
+    readonly useGtag: UnwrapRef<typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useGtag')['useGtag']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
@@ -1079,6 +1084,7 @@ declare module '@vue/runtime-core' {
     readonly useToNumber: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToNumber']>
     readonly useToString: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useToggle']>
+    readonly useTrackEvent: UnwrapRef<typeof import('../../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent')['useTrackEvent']>
     readonly useTransition: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useTransition']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
     readonly useUrlSearchParams: UnwrapRef<typeof import('../../node_modules/@vueuse/core')['useUrlSearchParams']>

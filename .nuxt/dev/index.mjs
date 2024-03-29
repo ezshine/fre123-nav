@@ -65,6 +65,15 @@ const _inlineRuntimeConfig = {
       "storage": "cookies",
       "debug": false,
       "cookieOptions": {}
+    },
+    "gtag": {
+      "enabled": true,
+      "id": "G-TVGMM4MSHK",
+      "initCommands": [],
+      "config": {},
+      "tags": [],
+      "loadingStrategy": "defer",
+      "url": "https://www.googletagmanager.com/gtag/js"
     }
   }
 };
